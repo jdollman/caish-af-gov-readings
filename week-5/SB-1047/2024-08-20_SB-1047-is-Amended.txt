@@ -1,0 +1,73 @@
+Title: SB 1047 is Amended
+Author: Dean W. Ball
+Published: 2024-08-20
+Original article: https://www.hyperdimensional.co/p/sb-1047-is-amended
+
+---
+
+# SB 1047 is Amended
+
+*To want everything, absolutely everything, in a landscape, a region, a civilization, to belong to a rigid unified system, is this not a dream of a centralizing philosopher? Is it not better to accept that this landscape, this region, this civilization are made, after long historical accretions, of elements which possibly have relations of causality or interdependence, or not, and are juxtaposed to one another, sometimes at the price of mutual confusion? \[...\] Should not geographers and others see the world as full of questions, and not as a system to which they pretend to have the key?  
+\-* Pierre Gourou, *Riz et Civilisation*
+
+#### Introduction
+
+Imagine for a moment that, in the 1980s, government applied the same watchful eye to the nascent personal computing industry as it does to AI today. Imagine a bill just like [SB 1047](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047) being introduced right around the time the Macintosh launched (1984), saying that any major harm accomplished using a computer would be the legal responsibility of the computer’s manufacturer. We would have a profoundly different computing industry today. Who knows what would have happened. Who knows what *wouldn’t* have happened. But we know it would be different, and I think we all know, in our hearts, that the modern computing industry would be worse if such a law had passed.
+
+Scott Wiener, SB 1047’s author, knows it. Dan Hendrycks, the intellectual force behind the bill, knows it. You know it. I know it. It would be *worse*.
+
+It's a simple fact, but it gets lost in the bickering, my own included, about compute thresholds and tort liability and jury instructions and soft law and all the rest.
+
+Maybe it’s a worthwhile tradeoff. Maybe AI is nothing like the computer as a technology. Maybe AI capabilities will become sufficiently dangerous that releasing them without extensive, government-mandated testing is wildly irresponsible. Maybe they’ll become *so* dangerous that it really is too risky to release them as open source, since currently anyone can subvert the safety protections of an open-source model. And maybe after that happens, Meta or another well-resourced company, with its shareholders and its public reputation on the line, will choose to disregard all of those safety best practices and open source its models anyway, prioritizing its strategic business goals over the safety of society.
+
+Maybe that is a world we’ll live in next month, or next year, or in five years, or in ten. But it is *manifestly* not the world we live in today, and to me, it is not obvious that any one of the “maybes” above is bound to come true. If we *did* live in that world, then something like SB 1047, particularly as amended, would indeed be among the lightest touch ways of mitigating foreseeable harms.
+
+But I don’t believe we live in that world today. And I don’t believe public policy should be made based on our reckons about what *could* happen with a nascent technology whose trajectory is radically uncertain. Not on Sam Altman’s reckons, or Scott Wiener’s, or Tyler Cowen’s, or Zvi Mowshowitz’s, or yours, or mine. I believe public policy should *react* to known facts. “Geoff Hinton says so” is a kind of evidence, but it is not close to being sufficient.
+
+Perhaps we will see new evidence that we are entering that world, and if we do, you can bet I’ll update my views. I’m not *wedded* to open-source frontier AI—I simply believe that open-source software in general has been positive for the world, and may specifically benefit us with AI in terms of innovation, competition, safety, and many other things. Broad liability waivers for developers have been a key part of open-source software’s success, and those waivers apply to the independent developer just as much as they apply to a multi-trillion dollar technology firm. A system of more-or-less permissionless innovation has also been key to the rise of software in the modern world.
+
+Attacking these pillars of our modern economy, even lightly, is a radical step. SB 1047 is just this: a light attack on foundational elements of the digital economy. It is reasonable to question whether it will be the last such step regulators take if they choose to set forth on this path. Considering both the dramatic change to the status quo SB 1047 would entail, and the potential future steps SB 1047 could enable, I think it is fair to demand a high burden of proof that the cost is necessary. I don’t believe that burden of proof has been met.
+
+I was a critic of SB 1047 from the beginning. I remember eating dinner with my wife and seeing the news that the text has been released. I quickly finished dinner and stayed up until 1 AM reading the bill closely and writing my first Substack post that got significant attention[: California’s Effort to Strangle AI](https://www.hyperdimensional.co/p/californias-effort-to-strangle-ai). I suggest reading this post for a background on my thoughts on this bill, though also note that many specific provisions of SB 1047 have changed since this piece was written (see also [here](https://www.hyperdimensional.co/p/the-political-economy-of-ai-regulation) and [here](https://www.hyperdimensional.co/p/california-senate-passes-sb-1047) for more from me). For a broader summary on the bill and the debate surrounding it, see [here](https://techcrunch.com/2024/08/13/california-ai-bill-sb-1047-aims-to-prevent-ai-disasters-but-silicon-valley-warns-it-will-cause-one/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAChoggydPV27PjpavLUAox2mNj_iqtN1KbDc2JZdfsyhVmtp1ecUGKmKh-ecSg85ZBkQhRpn9gTcm2R1-iY7dCN6pIw-bvwR_I8t5yAPoP0kPtoCl_JtnC0nWNwvXqhdVbONHGGtTS2qfzNQnexWiA0oGd36S1-hzRtSnztnBxzB) from *TechCrunch*.
+
+Despite the open letters, committee hearings, and amendments, my primary criticisms of the bill haven’t changed much since then:
+
+1. The Frontier Model Division will be a political economy nightmare. It will be inexpertly staffed and subject to political pressures that are inevitable in the regulation of a disruptive general-purpose technology that challenges politically powerful economic actors like lawyers, teachers, doctors, public employees, and others.
+2. The bill mandates AI safety standards that simply do not exist. This means more unpredictable rule by bureaucratic fiat, something that this country, and especially California, has had enough of.
+3. The bill’s liability provisions and related rules make open-source AI challenging, if not impossible, at the frontier of AI (I don’t mean today’s frontier; I mean the frontiers of the future). At the very least, the bill is a kind of purgatory for open models—we all know in what direction SB 1047 is pointing, and I wish SB 1047 supporters were more transparent about this. That is unsurprising, because many of those supporters view open-source AI as something approximating an existential threat to every living creature on this planet. (Given this fact, one could even applaud SB 1047 supporters for their restraint. I believe them when they say that they think it is a bare minimum regulation.)
+
+Most of my other criticisms are derivative of these three concerns.
+
+#### Details of the SB 1047 amendments
+
+The AI company Anthropic shared some of these concerns, and added some of their own, which they [outlined in a thoughtful letter](https://www.documentcloud.org/documents/25003075-sia-sb-1047-anthropic) to Senator Scott Wiener a few weeks ago. Senator Wiener has since adopted many of their amendments.
+
+Anthropic’s letter seemed sensible to me, and I considered it good news when Senator Wiener said he was taking it seriously.
+
+I *wanted* there to be a workable compromise. I *hoped* there would be, if only to show the world that it is still possible for reasonable adults to disagree and come to a mutual understanding.
+
+My hopes will almost certainly not be realized.
+
+Ultimately, through whatever process this letter was incorporated into the existing version of SB 1047, something was lost. Many of the important flaws remain:
+
+1. The Frontier Model Division still exists in all but name. Most of its important functions are now handled by the “Board of Frontier Models,” housed within the California Government Operations Agency, including the ability to issue “guidelines” about model safety. These guidelines are likely to become de facto rules, regardless of whether they have the legal force of formal regulation.
+2. The bill still sets out murky compliance standards. For example, developers have to “take reasonable care” to ensure that their models, including-fine tunes made by other developers, do not “pose an unreasonable risk of causing or enabling a critical harm.” A critical harm, among other things, includes “providing precise instructions” for a cyberattack on critical infrastructure. Nearly all AI models today can be jailbroken to do exactly this, depending on what one’s definition of “precise instructions” is (and this would be determined by courts in practice—an inherently unpredictable process).
+3. SB 1047 requires that model developers create a safety and security plan. In my reading of Anthropic’s proposed amendments (which some dispute), these plans would determine or largely determine whether liability attaches in the event of a critical harm. If your model caused a critical harm, and there was a weakness in your safety plan *compared to your peers’ safety* plans, then you would bear liability. This is not reflected in the final bill. Instead, safety plans are one of many things that courts and juries can take into account when determining liability. I fear that the net result will be, in essence, strict liability (undergirded by state-issued safety guidelines) for frontier AI developers—especially those who produce open models.
+4. These safety plans must be made available to the public, with redactions for security if need be, and made available to the California Attorney General with no redactions. If you take AI catastrophic risk seriously, you know that many believe that the safety testing itself should be classified, given that they often involve privileged information relating to chemical, biological, and nuclear weapons. Under 1047, developers, who may have worked with the federal government on such testing, are obligated to share such classified information with the California government—potentially a violation of federal law. At the very least, this speaks to the fact that many incredibly important things are being rushed without being fully thought through.
+5. The bill mandates annual audits of AI developers’ safety plans, which in the long run may be a good idea. But given how nascent these ideas are, and the potential complexity inherent in regulating a new AI audit marketplace, this is surely a task best left to the federal government.
+6. The law now mandates that the Board of Frontier Models, must have experts with CBRN (chemical, biological, radiological, and nuclear) weapons expertise. Does this not make it obvious that this should be a federal responsibility? Should California be doing this?
+7. There is still broad and nebulous liability of many different forms for AI developers, including people who make large fine-tunes of open models, to comply with. Almost none of the terms are particularly clear.
+8. The bill is clearly setting the stage for future regulation. For example, model developers are required to annually submit a letter to the Attorney General describing all the ways that their safety plans may be insufficient to prevent covered harms. This is essentially a mandatory letter open model developers will have to submit stating that open-weight models are “less secure” than closed-weight models. *This can and will be used against them*.
+9. The bill does not recognize tradeoffs that exist in practice. For example, it requires developers of open models to take all “reasonable” steps necessary to prevent third party fine-tunes of their models from being used to enable a critical harm. But what if some of the technical steps necessary for that also entail performance tradeoffs? The bill is silent on these issues.
+10. More broadly, as has been the case since the beginning, this bill simply bites off more than it can chew. It regulates frontier AI models and their associated fine-tunes, data centers (requiring, in essence, know your customer procedures), whistleblower protections for AI company staff, and initiates the creation of a state-owned compute cluster. *Each* of these is a massive task. Each deserves careful consideration. We do not have time to waste, but we do have time to be deliberate. SB 1047 is not deliberate.
+
+#### Conclusion
+
+Perhaps, in the spirit of maximal honesty and self-reflection, part of my reaction to this amended bill is simply coming face-to-face with *any* compromise on what I have always believed is a fundamentally flawed bill, at least for our present circumstances. Perhaps I just remembered the basic and obvious fact that I began with: that SB 1047 will probably make AI *worse*, even if it makes it, in some sense, safer—and I am not confident even that it will make AI safer.
+
+I cannot help but shake the feeling that SB 1047 is not really about improving much of anything, not about fixing some manifest problem in the world. That it is instead about making California’s legislators feel *better*, feel *important*, feel like they have and deserve a seat at some imaginary table. About satisfying the egos of civil servants who believe that nothing good in the world can happen without government—without them.
+
+I am frustrated. In the civil servants, to be sure. But also, and even more so, in myself, for not, somehow, saying some combination of words to fix all this. For the thousands of developers, scientists, founders, engineers, investors, and concerned citizens who devoted their limited time to thinking about this premature and half-baked bill. I am heartened that they did so, and yet I am embarrassed that they had to.
+
+And so after all the spilled ink, we’re right where we started. SB 1047 remains, alas, California’s effort to strangle AI.
+

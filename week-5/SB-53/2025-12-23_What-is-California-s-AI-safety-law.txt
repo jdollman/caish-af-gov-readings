@@ -1,0 +1,82 @@
+Title: What is California’s AI safety law?
+Author: Malihe Alikhani, Aidan T. Kane
+Published: 2025-12-23
+Original article: https://www.brookings.edu/articles/what-is-californias-ai-safety-law/
+
+---
+
+# What is California’s AI safety law?
+
+On September 29, 2025, as Congress remained deadlocked on comprehensive AI legislation, California Governor Gavin Newsom signed Senate Bill 53 (SB 53) into law.[^1] In doing so, California introduced the first enforceable regulatory framework in the United States for the most advanced artificial intelligence systems. The timing matters. Frontier AI models—large, general-purpose AI systems trained on vast datasets and reused across many applications, not limited to large language models and including multimodal models—are advancing in scientific reasoning, autonomous decisionmaking, and code generation, yet the federal debate over guardrails has stalled over questions of innovation, competitiveness, and government reach. Into this vacuum, California steps forward and argues for a different path: Start with structured transparency and build the evidence base needed for future regulation without freezing a technology that is widely viewed as economically and scientifically consequential.
+
+SB 53—The Transparency in Frontier Artificial Intelligence Act—applies to developers of the largest foundation models and requires them to produce standardized safety frameworks, incident reporting, internal governance systems, and whistleblower protections.[^2] It is an attempt to convert years of voluntary corporate commitments into public accountability that can be evaluated, monitored, and enforced.
+
+This is the central story. In the absence of federal action, California has become the test bed for frontier model governance. The state that gave rise to Silicon Valley is now experimenting with how to regulate some of its most powerful creations. And rather than choosing control or capability restrictions, it is believed that transparency and disclosure can create the information infrastructure that future AI policy will need.
+
+In this article, we first describe what SB 53 does, who it affects, and its importance. Then, we discuss safety, transparency, and accountability under SB 53, followed by a section on innovation in California’s AI ecosystem. Lastly, we compare SB 53 to other AI regulations and conclude with open questions moving forward.
+
+### What SB 53 does
+
+SB 53 sets out one of the first comprehensive state frameworks for governing frontier models, [defined as](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53#:~:text=%C2%A0%E2%80%9CFrontier%20model%E2%80%9D%20means%20a%20foundation%20model%20that%20was%20trained%20using%20a%20quantity%20of%20computing%20power%20greater%20than%2010%5E26%20integer%20or%20floating%2Dpoint%20operations.) foundation models trained above 10^26 floating-point operations (FLOPs).[^3] No current foundation models meet this threshold, as it is several orders of magnitude above current generation training runs. This threshold is intentionally designed to target only the systems that sit at the frontier of capability development. In addition to frontier models, the law also applies to large frontier developers, companies with annual revenues over $500 million dollars. In practice, this means approximately five to eight companies currently fall under the law’s jurisdiction, including OpenAI, Anthropic, Google DeepMind, Meta, and Microsoft.[^4]
+
+Before SB 53, the governance of frontier AI largely rested on [voluntary commitments](https://www.anthropic.com/transparency/voluntary-commitments). SB 53 transforms the patchwork of self-regulation into a statutory system with concrete duties and penalties for violations.
+
+The core requirement is the frontier AI framework. Each large developer must design, implement, and publicly post a company-wide safety and risk management plan describing how catastrophic risks are identified, assessed, and reduced. Catastrophic risks are defined in statute as deployment outcomes that could lead to more than fifty deaths or more than one billion dollars in damages.[^5] Examples of such risks might include a frontier model being used to generate novel biological weapon designs, to orchestrate large-scale attacks on critical infrastructure like power grids or financial systems, or to autonomously execute harmful actions at scale without meaningful human oversight.
+
+The frameworks must show alignment with national and international standards, include independent assessments, specify internal governance structures, describe cybersecurity protections for unreleased model weights, and outline incident response systems. They must be reviewed and updated every year. Prior to releasing or modifying a frontier model, developers must publish a transparency report that summarizes the model’s capabilities, supported languages, modalities, intended uses, restrictions, and the results of catastrophic risk assessments.
+
+The law also introduces a new reporting and oversight system. Frontier developers must disclose critical safety incidents to the California Office of Emergency Services within fifteen days, or within twenty-four hours if there is an imminent public threat. The attorney general may impose civil penalties of up to $1,000,000 per violation.[^6] To support internal accountability, companies must create confidential channels for employees to report safety concerns, with statutory protection against retaliation.
+
+Alongside these requirements, SB 53 establishes the CalCompute consortium, a state-led effort to explore public technical infrastructure for safe, ethical, equitable, and sustainable AI research. While secondary to the regulatory portions, CalCompute signals an intention to democratize access to high-end compute rather than concentrating it solely among the largest firms.
+
+### Who SB 53 affects and why it matters
+
+SB 53 applies to only a handful of actors, but its effects extend far beyond those few companies. By setting clear thresholds for computational scale and revenue, the law targets the firms building the most consequential models. The threshold-based approach is not without critics, however. Some observers [worry](https://builtin.com/articles/california-sb53-law-analysis) it creates a regulatory cliff that could incentivize companies to stay just below the 10^26 FLOP threshold or structure operations to avoid crossing the $500 million revenue line. Even so, the design choice reflects a desire to regulate only systems that pose society-level risks rather than burden the broader ecosystem.
+
+Because most major AI companies operate in California, the law effectively establishes a national compliance standard. As with the California Consumer Privacy Act, companies are unlikely to maintain different safety practices in different states. SB 53, therefore, becomes a template capable of shaping federal and international approaches.
+
+In addition to its potential for broad influence on regulatory policy, SB 53 is significant because of its focus on ongoing oversight. Annual safety framework updates, quarterly summaries to regulators, and mandatory incident reporting create a continuous feedback loop rather than a one-time compliance moment. The catastrophic risk standard transforms abstract debates about AI safety into a duty of care that regulators and courts can evaluate.
+
+The emphasis on cultural governance also matters. Whistleblower protections and internal reporting channels are designed to surface early warnings from within the organizations closest to the frontier. CalCompute reinforces the idea that safety and innovation are mutually reinforcing rather than competing priorities.
+
+California is not simply regulating AI companies. It institutionalizes public accountability and situates frontier AI development as a matter of public safety and public interest.
+
+#### Innovation and the future of California’s tech ecosystem
+
+Much of the law codifies practices that major companies already claim to follow, thereby leveling the playing field rather than creating entirely new duties. The bigger shift may be cultural. As transparency reports, risk assessments, and governance procedures become normal expectations in procurement, fundraising, and acquisitions, startups may find it advantageous to adopt these practices voluntarily.
+
+Initial industry response has been cautiously supportive. Anthropic publicly [endorsed](https://www.anthropic.com/news/anthropic-is-endorsing-sb-53) the final version of SB 53, noting that its requirements largely align with practices the company had already adopted. OpenAI and Google have not opposed the law, though they have [emphasized](https://cdn.openai.com/global-affairs/ostp-rfi/ec680b75-d539-4653-b297-8bcf6e5f7686/openai-response-ostp-nsf-rfi-notice-request-for-information-on-the-development-of-an-artificial-intelligence-ai-action-plan.pdf) the importance of federal preemption to avoid a fragmented state-by-state regulatory landscape. Some venture capital investors have [expressed concern](https://www.scbc-law.org/post/impact-of-legal-and-regulatory-uncertainty-in-the-ai-venture-capital-market) that even [indirect compliance expectations](https://ai-analytics.wharton.upenn.edu/wharton-accountable-ai-lab/sb-53-what-californias-new-ai-safety-law-means-for-developers/) could increase costs for portfolio companies, though [others now view](https://www.onetrust.com/blog/california-sb-53-advancing-transparency-and-safety-in-frontier-ai/) governance maturity as a marker of readiness and long-term stability.
+
+### Safety, transparency, and accountability under SB 53
+
+SB 53 converts the principles of AI governance into enforceable duties. Frontier developers must maintain a continuous process for spotting and mitigating catastrophic risks. Transparency becomes a recurring obligation rather than an optional gesture. The public will have access to detailed information on what these systems can do, how they are intended to be used, and how companies evaluate their highest-risk failure modes.
+
+Accountability is strengthened through oversight and deterrence. The California Office of Emergency Services will receive ongoing summaries of company risk assessments, and the attorney general may enforce compliance. Whistleblower protections empower employees to raise concerns that might otherwise remain hidden. This model of co-regulation mirrors approaches used in other innovation-driven sectors such as financial services, where [regulatory sandboxes](https://www.congress.gov/crs-product/IF12875) have enabled fintech growth, demonstrating that structured supervision can coexist with, and even support, innovation rather than impede it.
+
+### How SB 53 compares with other AI regulations
+
+SB 53 differs from major international frameworks. Compared to the EU AI Act, which entered into force on August 1, 2024, the California law is narrower.[^7] It focuses only on the most powerful models rather than regulating a broad spectrum of high-risk applications. Yet on transparency, SB 53 goes further. Safety frameworks must be posted publicly rather than submitted privately to regulators. This makes California more aggressive about putting safety information into the commons.
+
+On enforcement, the law is lighter than the EU and lighter than state proposals like New York’s RAISE Act, which passed the state legislature in June 2025 and includes penalties of up to $10 million for first violations and $30 million for subsequent violations.[^8] But SB 53 introduces something novel: federal deference. If a company satisfies comparable federal standards, like those in the EU AI Act, California will accept that compliance instead of requiring duplicate filings. This creates a mechanism for harmonizing state and federal regimes.
+
+The global picture adds further contrast. China has [implemented](https://www.whitecase.com/insight-our-thinking/ai-watch-global-regulatory-tracker-china) its own regulatory framework for generative AI, including algorithm registration requirements, content moderation mandates, and security assessments for models with public opinion mobilization capabilities. While direct comparison is complicated by differences in political context, China’s approach is more prescriptive and centralized, emphasizing state control over AI development. California’s approach is almost the mirror opposite. It is grounded in disclosure, public accountability, and the creation of evidence for future regulation. It is governance by transparency rather than direct constraint of model capabilities.
+
+### The larger trajectory of AI regulation and the open questions
+
+SB 53 marks a shift in how AI regulation is imagined within the United States. Rather than relying on pre-approval systems or ex post liability alone, California requires companies to disclose how they build, test, and monitor their most powerful models and to report significant failures. This approach reflects a regulatory strategy that prioritizes transparency as a means of generating information needed for future oversight, while avoiding direct constraints on model development.
+
+[Recent federal actions](https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence) have aimed to penalize states that are creating policy on AI regulation to avoid a regulatory patchwork, but whether these measures will actually deter states from moving forward is unknown. Other states are already exploring similar legislation to that of California and New York.[^9] Whether these efforts will converge into a coherent national approach or fragment into a patchwork will depend on whether Congress eventually acts to supersede these state efforts. Or, in the absence of Congressional action, the punitive executive order could lead states to reverse course and reinstate the AI regulation vacuum.
+
+Assuming the law holds, several questions will decide whether SB 53 becomes a successful regulatory tool. Will transparency reports contain meaningful information or drift toward boilerplate? Can regulators keep pace with models that evolve on monthly cycles? Will whistleblower channels surface actionable insights? And will the Congressional action ultimately harmonize with or override this state-level experiment? Policymakers, researchers, and industry leaders would be wise to monitor California’s implementation closely.
+
+The answers will shape the future of AI governance in the United States and potentially influence global approaches. California’s experiment is not just a regulatory move. It is a signal that at the frontier of AI capability development, public accountability is not optional. It is foundational.
+
+[^1]: California Senate Bill 53, “Transparency in Frontier Artificial Intelligence Act,” signed September 29, 2025. Full text available at: [California Legislative Information](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53)
+[^2]: Governor’s Office, “Governor Newsom signs SB 53, advancing California’s world-leading artificial intelligence industry,” September 29, 2025. [gov.ca.gov](https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/)
+[^3]: This threshold mirrors the 2023 Executive Order on AI (“Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence”) and exceeds the EU AI Act’s threshold of 10^25 FLOPs. See SB 53, Section 22757.11(i).
+[^4]: Future of Privacy Forum, “California’s SB 53: The First Frontier AI Law, Explained,” 2025. [fpf.org](https://fpf.org/blog/californias-sb-53-the-first-frontier-ai-law-explained/)
+[^5]: SB 53, Section 22757.11(c), defining “catastrophic risk.”
+[^6]: SB 53, Section 22757.13, enforcement provisions.
+[^7]: European Union Artificial Intelligence Act, Regulation (EU) 2024/1689, entered into force August 1, 2024. [EU AI Act Official Text](https://artificialintelligenceact.eu/the-act/)
+[^8]: New York State Senate Bill S6953B, “Responsible AI Safety and Education Act” (RAISE Act), passed June 12, 2025. [NY Senate](https://www.nysenate.gov/legislation/bills/2025/S6953)
+[^9]: Based on conversations between author and state policymakers.

@@ -1,0 +1,70 @@
+Title: This controversial California AI bill was amended to quell Silicon Valley fears. Here’s what changed
+Author: Wendy Lee
+Published: 2024-08-16
+Original article: https://www.latimes.com/entertainment-arts/business/story/2024-08-16/scott-wieners-ai-bill-sb-1047
+
+---
+
+# This controversial California AI bill was amended to quell Silicon Valley fears. Here’s what changed
+
+![State Sen. Scott Wiener (D-San Francisco) speaks with two people](https://ca-times.brightspotcdn.com/dims4/default/8d524dc/2147483647/strip/true/crop/4933x3243+0+0/resize/1200x789!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F12%2Fdb%2F286b94d34a6abd8eadb291575e64%2F1263287-pol-scott-wiener-profile04-je.jpg)
+
+A bill by state Sen. Scott Wiener (D-San Francisco) is causing an uproar in the tech industry. (Josh Edelson / For The Times)
+
+A [controversial bill](https://www.latimes.com/entertainment-arts/business/story/2024-06-19/california-lawmakers-are-trying-to-regulate-ai-before-its-too-late-heres-how) that seeks to protect Californians from artificial intelligence-driven catastrophes has caused uproar in the tech industry. This week, the legislation passed a key committee but with amendments to make it more palatable to Silicon Valley.
+
+SB 1047, from state Sen. Scott Wiener (D-San Francisco), is set to go to the state Assembly floor later this month. If it passes the Legislature, Gov. Gavin Newsom will have to decide whether to sign or veto the groundbreaking legislation.
+
+The bill’s backers say it will create guardrails to prevent rapidly advancing AI models from causing disastrous incidents, such as shutting down the power grid without warning. They worry that the technology is developing faster than its human creators can control.
+
+Lawmakers aim to incentive developers to handle the technology responsibly and empower the state’s attorney general to impose penalties in the event of imminent threat or harm. The legislation also requires developers to be able to turn off the AI models they control directly if things go awry.
+
+But some tech companies, such as Facebook owner Meta Platforms, and politicians including influential U.S. Rep. Ro Khanna (D-Fremont), say the bill would stifle innovation. Some critics say it focuses on apocalyptic, far-off scenarios, rather than the more immediate concerns such as privacy and misinformation, though there are [other bills](https://www.latimes.com/entertainment-arts/business/story/2024-06-19/california-lawmakers-are-trying-to-regulate-ai-before-its-too-late-heres-how) that address these matters.
+
+SB 1047 is one of roughly [50 AI-related bills](https://www.latimes.com/entertainment-arts/business/story/2024-06-19/california-lawmakers-are-trying-to-regulate-ai-before-its-too-late-heres-how) that have been brought up in the state Legislature, as worries have grown about the technology’s effects on jobs, disinformation and public safety. As politicians work to create new laws to put guardrails on the fast-growing industry, some companies and talent are suing AI companies in hopes that courts can set ground rules.
+
+Wiener, who represents San Francisco — the home of AI startups OpenAI and Anthropic — has been in the middle of the debate.
+
+On Thursday, he made significant changes to his bill that some believe weaken the legislation while making it more likely for the Assembly to pass.
+
+The amendments removed a perjury penalty from the bill and changed the legal standard for developers regarding the safety of their advanced AI models.
+
+Additionally, a plan to create a new government entity, which would have been called the Frontier Model Division, is no longer in the works. Under the original text, the bill would have required developers to submit their safety measures to the newly created division. In the new version, developers would submit those safety measures to the attorney general.
+
+“I do think some of those changes might make it more likely to pass,” said Christian Grose, a USC political science and public policy professor.
+
+Some tech players support the bill, including the Center for AI Safety and [Geoffrey Hinton, who is considered a “godfather of AI](https://www.washingtonpost.com/technology/2023/05/02/geoffrey-hinton-leaves-google-ai/).” Others, though, worry that it could damage a booming California industry.
+
+Eight California House members — Khanna, Zoe Lofgren (D-San Jose), Anna G. Eshoo (D-Menlo Park), Scott Peters (D-San Diego), Tony Cárdenas (D-Pacoima), Ami Bera (D-Elk Grove), Nanette Diaz Barragan (D-San Pedro) and Lou Correa (D-Santa Ana) — wrote a letter to Newsom on Thursday encouraging him to veto the bill if it passes the state Assembly.
+
+“\[Wiener\] really is cross pressured in San Francisco between people who are experts in this area, who have been telling him and others in California that AI can be dangerous if we don’t regulate it and then those whose paychecks, their cutting edge research, is from AI,” Grose said. “This could be a real flash point for him, both pro and con, for his career.”
+
+Some tech giants say they are open to regulation but disagree with Wiener’s approach.
+
+“We are aligned with the way (Wiener) describes the bill and the goals that he has, but we remain concerned about the impact of the bill on AI innovation, particularly in California, and particularly on open source innovation,” Kevin McKinley, Meta’s state policy manager, said in a meeting with L.A. Times editorial board members last week.
+
+Meta is one of the companies with open source AI models called Llama, which allows developers to build on top of it for their own products. Meta released Llama 3 in April and there have already been 20 million downloads, the tech giant said.
+
+Meta declined to discuss the new amendments. Last week, McKinley said SB 1047 is “actually a really hard bill to red line and fix.”
+
+A spokesperson for Newsom said his office does not typically comment on pending legislation.
+
+“The Governor will evaluate this bill on its merits should it reach his desk,” spokesperson Izzy Gardon wrote in an email.
+
+San Francisco AI startup Anthropic, which is known for its AI assistant Claude, signaled it could support the bill if it was amended. In a July 23 letter to Assemblymember Buffy Wicks (D-Oakland), Anthropic’s state and local policy lead Hank Dempsey proposed changes including shifting the bill to focus on holding companies responsible for causing catastrophes rather than pre-harm enforcement.
+
+Wiener said the amendments took Anthropic’s concerns into account.
+
+“We can advance both innovation and safety,” Wiener said in a statement. “The two are not mutually exclusive.”
+
+It is unclear whether the amendments will change Anthropic’s position on the bill. On Thursday, Anthropic said in a statement that it would review the new “bill language as it becomes available.”
+
+Russell Wald, deputy director at the Stanford Institute for Human-Centered AI, which aims to advance AI research and policy, said he still opposes the bill.
+
+“Recent amendments appear to be more about optics than substance,” Wald said in a statement. “It looks less controversial to appease a couple of leading AI companies but does little to address real concerns from academic institutions and open-source communities.”
+
+It is a fine balance for lawmakers that are trying to weigh concerns about AI while also supporting the state’s tech sector.
+
+“What a lot of us are trying to do is figure out a regulatory environment that allows for some of those guardrails to exist while not stifling innovation and the economic growth that comes with AI,” Wicks said after Thursday’s committee meeting.
+
+*Times staff writer Anabel Sosa contributed to this report.*

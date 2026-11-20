@@ -1,0 +1,58 @@
+Title: From sci-fi to state law: California’s plan to prevent AI catastrophe
+Author: Benj Edwards, Kyle Orland
+Published: 2024-07-29
+Original article: https://arstechnica.com/information-technology/2024/07/from-sci-fi-to-state-law-californias-plan-to-prevent-ai-catastrophe/
+
+---
+
+# From sci-fi to state law: California’s plan to prevent AI catastrophe
+
+[![The California state capital building in Sacramento.](https://cdn.arstechnica.net/wp-content/uploads/2024/07/california_state_capital_building.jpg)](https://cdn.arstechnica.net/wp-content/uploads/2024/07/california_state_capital_building.jpg)
+
+The California State Capitol has been the scene of numerous efforts to regulate AI. Credit: [Getty Images](https://www.gettyimages.com/detail/photo/capital-building-at-night-royalty-free-image/182176535)
+
+California’s “Safe and Secure Innovation for Frontier Artificial Intelligence Models Act” (a.k.a. SB-1047) has led to a flurry of [headlines](https://www.vox.com/future-perfect/361562/california-ai-bill-scott-wiener-sb-1047) and [debate](https://fortune.com/2024/07/15/california-ai-bill-sb-1047-fierce-debate-regulation-safety/) concerning the overall “safety” of large artificial intelligence models. But critics are concerned that the bill’s overblown focus on existential threats by future AI models could severely limit research and development for more prosaic, non-threatening AI uses today.
+
+[SB-1047](https://digitaldemocracy.calmatters.org/bills/ca_202320240sb1047), introduced by State Senator [Scott Wiener](https://sd11.senate.ca.gov/), passed the California Senate [in May](https://sd11.senate.ca.gov/news/bipartisan-vote-senate-passes-senator-wieners-landmark-ai-safety-and-innovation-bill) with a 32-1 vote and seems well positioned for a final vote in the State Assembly in August. The text of the bill requires companies behind sufficiently large AI models (currently set at $100 million in training costs and the rough computing power implied by those costs today) to put testing procedures and systems in place to prevent and respond to “safety incidents.”
+
+The bill lays out a legalistic definition of those safety incidents that in turn focuses on defining a set of “critical harms” that an AI system might enable. That includes harms leading to “mass casualties or at least $500 million of damage,” such as “the creation or use of chemical, biological, radiological, or nuclear weapon” (hello, [Skynet](https://en.wikipedia.org/wiki/Skynet_\(Terminator\))?) or “precise instructions for conducting a cyberattack… on critical infrastructure.” The bill also alludes to “other grave harms to public safety and security that are of comparable severity” to those laid out explicitly.
+
+An AI model’s creator can’t be held liable for harm caused through the sharing of “publicly accessible” information from outside the model—simply asking an LLM to summarize *The Anarchist’s Cookbook* probably wouldn’t put it in violation of the law, for instance. Instead, the bill seems most concerned with *future* AIs that could come up with “novel threats to public safety and security.” More than a human using an AI to brainstorm harmful ideas, SB-1047 focuses on the idea of an AI “autonomously engaging in behavior other than at the request of a user” while acting “with limited human oversight, intervention, or supervision.”
+
+![](https://cdn.arstechnica.net/wp-content/uploads/2024/07/Screenshot-2024-07-29-at-2.00.43%E2%80%AFPM.png)
+
+Would California’s new bill have stopped WOPR?
+
+To prevent this straight-out-of-science-fiction eventuality, anyone training a sufficiently large model must “implement the capability to promptly enact a full shutdown” and have policies in place for when such a shutdown would be enacted, among other precautions and tests. The bill also focuses at points on AI actions that would require “intent, recklessness, or gross negligence” if performed by a human, suggesting a degree of agency that [does not exist in today’s large language models](https://arstechnica.com/ai/2024/05/heres-whats-really-going-on-inside-an-llms-neural-network/).
+
+## Attack of the killer AI?
+
+This kind of language in the bill likely reflects the particular fears of its original drafter, [Center for AI Safety](https://arstechnica.com/information-technology/2023/05/openai-execs-warn-of-risk-of-extinction-from-artificial-intelligence-in-new-open-letter/) (CAIS) co-founder Dan Hendrycks. In [a 2023 Time Magazine piece](https://time.com/6283958/darwinian-argument-for-worrying-about-ai/), Hendrycks makes the maximalist existential argument that “evolutionary pressures will likely ingrain AIs with behaviors that promote self-preservation” and lead to “a pathway toward being supplanted as the earth’s dominant species.'”
+
+If Hendrycks is right, then legislation like SB-1047 seems like a common-sense precaution—indeed, it might not go far enough. Supporters of the bill, including AI luminaries [Geoffrey Hinton](https://arstechnica.com/information-technology/2023/05/warning-of-ais-danger-pioneer-geoffrey-hinton-quits-google-to-speak-freely/) and [Yoshua Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio), agree with [Hendrycks’ assertion](https://x.com/DanHendrycks/status/1784997305252503753) that the bill is a necessary step to prevent potential catastrophic harm from advanced AI systems.
+
+“AI systems beyond a certain level of capability can pose meaningful risks to democracies and public safety,” wrote Bengio in an [endorsement](https://sd11.senate.ca.gov/news/senator-wiener-introduces-legislation-ensure-safe-development-large-scale-artificial) of the bill. “Therefore, they should be properly tested and subject to appropriate safety measures. This bill offers a practical approach to accomplishing this, and is a major step toward the requirements that I’ve recommended to legislators.”
+
+However, critics argue that AI policy shouldn’t be led by outlandish fears of future systems that resemble science fiction more than current technology. “SB-1047 was originally drafted by non-profit groups that believe in the end of the world by sentient machine, like Dan Hendrycks’ Center for AI Safety,” [Daniel Jeffries](https://x.com/Dan_Jeffries1), a prominent voice in the AI community, told Ars. “You cannot start from this premise and create a sane, sound, ‘light touch’ safety bill.”
+
+“If we see any power-seeking behavior here, it is not of AI systems, but of AI doomers,” added tech policy expert Nirit Weiss-Blatt. “With their fictional fears, they try to pass fictional-led legislation, one that, according to numerous AI experts and open source advocates, could ruin California’s and the US’s technological advantage.”
+
+## An “open weights” killer?
+
+You could argue that protecting against the long-tail risk of future “killer AI” is a reasonable precaution, even if such a risk is extremely unlikely. However, some experts argue that putting SB-1047’s regulations in place would impose a significant cost even on run-of-the-mill AI research development.
+
+In [his Understanding AI newsletter](https://www.understandingai.org/p/a-california-bill-could-seriously), Ars contributor Timothy Lee lays out how SB-1047’s language could severely hamper the spread of [so-called “open weight” AI models](https://arstechnica.com/information-technology/2024/02/google-goes-open-ai-with-gemma-a-free-open-weights-chatbot-family/). That’s because the bill would make model creators liable for “derivative” models built off of their original training.
+
+“Like other frontier AI developers, Meta has trained its Llama models to refuse requests to assist with cyberattacks, scams, bomb-making, and other harms,” Lee writes. “But Meta probably can’t stop someone else from downloading one of its models and fine-tuning it to disable these restrictions.”
+
+Meta’s Yann LeCun highlighted that very risk, [writing on social media](https://x.com/ylecun/status/1811740052403220796) that “the ignominious California regulation SB1047… would essentially kill open source AI and significantly slow down or stop AI innovation.”
+
+Rather than focusing on fanciful existential risks, some AI experts argue that more effective AI safety regulations should focus on specific harmful uses of AI that exist today. [Andrew Ng](https://www.andrewng.org/), former Google Brain founder, Stanford computer science professor, and a prominent figure in the AI community, [wrote in a detailed social media post](https://x.com/andrewyng/status/1811425437048070328?s=46) earlier this month that the bill “makes a fundamental mistake of regulating AI technology instead of AI applications, and thus would fail to make AI meaningfully safer.”
+
+In his post, Ng suggested alternative regulatory approaches that he believes would be more effective, such as “outlawing nonconsensual deepfake pornography, standardizing watermarking and fingerprinting to identify generated content, and investing more in red teaming and other safety research.”
+
+Jeffries echoes this sentiment, arguing that “we need to scrap the bill entirely and focus on regulating AI use cases, not research and development. Focus on reining in mass surveillance with AI or raising penalties for cloning your mother’s voice and scamming you out of $5,000.”
+
+With federal efforts to regulate AI largely stalled, state-level initiatives like SB-1047 have taken on added significance. How California navigates this complex issue could set a precedent for future AI regulation efforts, making the stakes of this debate particularly high for all involved.
+
+As the bill undergoes further deliberation on its way to a final vote, the AI industry remains divided. The outcome of this legislative battle in California could have far-reaching implications for AI regulation not just in the state but potentially across the country and beyond.

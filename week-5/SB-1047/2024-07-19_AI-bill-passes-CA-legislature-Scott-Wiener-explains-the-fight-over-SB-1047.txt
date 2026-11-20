@@ -1,0 +1,79 @@
+Title: AI bill passes CA legislature: Scott Wiener explains the fight over SB 1047
+Author: Kelsey Piper
+Published: 2024-07-19
+Original article: https://www.vox.com/future-perfect/361562/california-ai-bill-scott-wiener-sb-1047
+Archived copy: https://archive.li/6RzjS
+
+---
+
+# AI bill passes CA legislature: Scott Wiener explains the fight over SB 1047
+
+## We spoke with the architect behind the notorious AI safety bill
+
+California legislator Scott Wiener on why the home of the AI industry is the right place to regulate it.
+
+by [Kelsey Piper](https://www.vox.com/authors/kelsey-piper)
+
+Updated Aug 28, 2024, 11:51 PM UTC
+
+***Editor’s note, August 28, 7:50 pm ET:** This story was originally published on July 19, 2024, and has been updated to reflect news that SB 1047 passed this week.*
+
+California state Sen. Scott Wiener (D-San Francisco) is generally known for [his](https://www.vox.com/policy/2023/8/21/23831121/housing-yimbys-affordable-rent-unions-california) relentless [bills](https://www.vox.com/policy-and-politics/2018/3/19/17135678/sb-827-cars-california-transit-trains-buses) on [housing](https://www.vox.com/policy-and-politics/2018/12/7/18125644/scott-wiener-sb-50-california-housing) and [public safety](https://www.sf.gov/news/mayor-breed-and-senator-wiener-announce-state-legislation-shut-down-sale-stolen-goods-san), a legislative record that made him one of the tech industry’s favorite legislators.
+
+His introduction of the “Safe and Secure Innovation for Frontier Artificial Intelligence Models” bill, however, gained the ire of that very same industry, with VC heavyweights Andreessen-Horowitz and Y Combinator [publicly condemning](https://www.transformernews.ai/p/a16z-y-combinator-big-tech-sb1047-lobbying) the bill. Known as SB 1047, the legislation requires companies to train “frontier models” that cost more than $100 million to do safety testing and be able to shut off their models in the event of a safety incident.
+
+On Tuesday, the bill passed California’s state legislature 41-9 — albeit with amendments softening some of its grip. For it to become state law, it needs Gov. Gavin Newsom’s signature next.
+
+I spoke with Wiener back in July about SB 1047 and its critics; our conversation is below (condensed for length and clarity).
+
+**Kelsey Piper: I wanted to present you with challenges to SB 1047 I’ve heard and give you a chance to answer them. I think one category of concern here is that the bill would prohibit using a model publicly, or making it available for public use, if it poses an unreasonable risk of critical harm.**
+
+**What’s an unreasonable risk? Who decides what’s reasonable? A lot of Silicon Valley is very regulator-skeptical, so they don’t trust that discretion will be used and not abused.**
+
+**Sen. Scott Wiener:** To me, SB 1047 is a light-touch bill in a lot of ways. It’s a serious bill, it’s a big bill. I think it’s an impactful bill, but it’s not hardcore. The bill doesn’t require a license. There are people including some CEOs who [have said](https://www.foxbusiness.com/technology/should-ai-development-require-license-chatgpts-creator-thinks-so-experts-disagree) there should be a licensure requirement. I rejected that.
+
+There are people who think [there should be strict liability](https://www.vox.com/future-perfect/2024/2/7/24062374/ai-openai-anthropic-deepmind-legal-liability-gabriel-weil). That’s the rule for most product liability. I rejected that. \[AI companies\] do not have to get permission from an agency to release the \[model\]. They have to do the safety testing they all say they are currently doing or intend to do. And if that safety testing reveals a significant risk — and we define those risks as being catastrophic — then you have to put mitigations in place. Not to eliminate the risk but to try to reduce it.
+
+There are already legal standards today that if a developer releases a model and then that model ends up being used in a way that harms someone or something, you can be sued and it’ll probably be a negligence standard about whether you acted reasonably. It’s much, much broader than the liability that we create in the bill. In the bill, only the Attorney General can sue, whereas under tort law anybody can sue. Model developers are already subject to potential liability that’s much broader than this.
+
+**Yes, I’ve seen some objections to the bill that seem to revolve around misunderstandings of tort law, like people [saying](https://x.com/AndrewYNg/status/1798753608974139779), “This would be like making the makers of engines liable for car accidents.”**
+
+And they are. If someone crashes a car and there was something about the engine design that contributed to that collision, then the engine maker can be sued. It would have to be proven that they did something negligent.
+
+I’ve talked to startup founders about it and VCs and folks from the large tech companies, and I’ve never heard a rebuttal to the reality that liability exists today and the liability that exists today is profoundly broader.
+
+We definitely hear contradictions. Some people who were [opposing](https://www.vox.com/future-perfect/355212/ai-artificial-intelligence-1047-bill-safety-liability) it were saying “this is all science fiction, anyone focused on safety is part of a cult, it’s not real, the capabilities are so limited.” Of course that’s not true. These are powerful models with huge potential to make the world a better place. I’m really excited for AI. I’m not a doomer in any respect. And then they say, “We can’t possibly be liable if these catastrophes happen.”
+
+**[Another challenge](https://www.reddit.com/r/singularity/comments/1e0ts13/the_perils_of_californias_sb_1047_a_threat_to/) to the bill is that open source developers have benefited a lot from Meta putting \[the generously licensed, sometimes called open source AI model\] Llama out there, and they’re understandably scared that this bill will make Meta less willing to do releases in the future, out of a fear of liability. Of course, if a model is genuinely extremely dangerous, no one wants it released. But the worry is that the concerns might just make companies way too conservative.**
+
+In terms of open source, including and not limited to Llama, I’ve taken the critiques from the open source community really, really seriously. We interacted with people in the open source community and we made amendments in direct response to the open source community.
+
+The shutdown provision requirement \[a provision in the bill that requires model developers to have the capability to enact a full shutdown of a covered model, to be able to “unplug it” if things go south\] was very high on the list of what person after person was concerned about.
+
+We made an amendment making it crystal clear that once the model is not in your possession, you are not responsible for being able to shut it down. Open source folks who open source a model are not responsible for being able to shut it down.
+
+And then the other thing we did was make an amendment about folks who were fine-tuning. If you make more than minimal changes to the model, or significant changes to the model, then at some point it effectively becomes a new model and the original developer is no longer liable. And there are a few other smaller amendments but those are the big ones we made in direct response to the open source community.
+
+**Another challenge I’ve heard is: Why are you focusing on this and not all of California’s more pressing problems?**
+
+When you work on any issue, you hear people say, “Don’t you have more important things to work on?” Yeah, I work [incessantly on housing](https://sd11.senate.ca.gov/news/san-francisco-housing-approval-times-plummet-senator-scott-wieners-landmark-housing-law-takes). I work on [mental health and addiction treatment](https://www.calbhbc.org/uploads/5/8/5/3/58536227/sb_855_-_fact_sheet_and_background_info.pdf). I work incessantly on [public safety](https://abc7news.com/scott-wiener-speed-governors-pedestrian-safety-california-bills-streets-safer/14356386/). I have an [auto break-ins bill](https://sd11.senate.ca.gov/news/senate-passes-senator-wiener-bills-crack-down-car-break-ins) and a [bill on people selling stolen goods on the streets](https://www.sf.gov/news/mayor-breed-and-senator-wiener-announce-state-legislation-shut-down-sale-stolen-goods-san). And I’m also working on a bill to make sure we both foster AI innovation and do it in a responsible way.
+
+As a policymaker, I’ve been very pro-tech. I’m a supporter of our tech environment, which is often under attack. I’ve [supported](https://sd11.senate.ca.gov/news/senator-wieners-net-neutrality-law-upheld-federal-appeals-court) California’s net neutrality law that fosters an open and free internet.
+
+But I have also seen with technology that we fail to get ahead of what are sometimes very obvious problems. We did that with data privacy. We finally got a data privacy law here in California — and for the record, the opposition to that said all of the same things, that it’ll destroy innovation, that no one will want to work here.
+
+My goal here is to create tons of space for innovation and at the same time promote responsible deployment and training and release of these models. This argument that this is going to squash innovation, that it’s going to push companies out of California — again, we hear that with pretty much every bill. But I think it’s important to understand this bill doesn’t just apply to people who develop their models in California, it applies to everyone who does business in California. So you can be in Miami, but unless you’re going to disconnect from California — and you’re not — you have to do this.
+
+**I wanted to talk about one of the interesting elements of the debate over this bill, which is the fact it’s wildly popular everywhere except in Silicon Valley. It [passed](https://sd11.senate.ca.gov/news/bipartisan-vote-senate-passes-senator-wieners-landmark-ai-safety-and-innovation-bill) the state senate 32-1, with bipartisan approval. [77 percent of Californians are in favor](https://static1.squarespace.com/static/65ea6ad22e449b11a1df46b0/t/6694cb31c6758b310ba372f2/1721027377736/SB+1047+poll+memo.pdf) according to one poll, more than half strongly in favor.**
+
+**But the people who hate it, they’re all in San Francisco. How did this end up being your bill?**
+
+In some ways I’m the best author for this bill, representing San Francisco, because I’m surrounded and immersed in AI. The origin story of this bill was that I started talking with a bunch of front-line AI technologists, startup founders. This was early 2023, and I started having a series of salons and dinners with AI folks. And some of these ideas started forming. So in a way I’m the best author for it because I have access to unbelievably brilliant folks in tech. In another way I’m the worst author because I have folks in San Francisco who are not happy.
+
+**There’s something I struggle with as a reporter, which is conveying to people who aren’t in San Francisco, who aren’t in those conversations, that AI is something really, really big, really high stakes.**
+
+It’s very exciting. Because when you start trying to envision — could we have a cure for cancer? Could we have highly effective treatments for a broad range of viruses? Could we have breakthroughs in clean energy that no one ever envisioned? So many exciting possibilities.
+
+But with every powerful technology comes risk. \[This bill\] is not about eliminating risk. Life is about risk. But how do we make sure that at least our eyes are wide open? That we understand that risk and that if there’s a way to reduce risk, we take it.
+
+That’s all we’re asking with this bill, and I think the vast majority of people will support that.

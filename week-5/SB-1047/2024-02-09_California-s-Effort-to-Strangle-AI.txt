@@ -1,0 +1,91 @@
+Title: California's Effort to Strangle AI
+Author: Dean W. Ball
+Published: 2024-02-09
+Original article: https://www.hyperdimensional.co/p/californias-effort-to-strangle-ai
+
+---
+
+# California's Effort to Strangle AI
+
+This week, California’s legislature introduced [SB 1047: The Safe and Secure Innovation for Frontier Artificial Intelligence Systems Act](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1047). The bill, introduced by State Senator Scott Wiener (liked by many, myself included, for his pro-housing stance), would create a sweeping regulatory regime for AI, apply the precautionary principle to all AI development, and effectively outlaw all new open source AI models—possibly throughout the United States.
+
+I didn’t intend to write a second post this week, but when I saw this, I knew I had to: I analyze state and local policy for a living (n.b.: nothing I write on this newsletter is on behalf of the Hoover Institution or Stanford University), and this is too much to pass up.
+
+A few caveats: I am not a lawyer, so I may err on legal nuances, and some things that seem ambiguous to me may in fact be clearer than I suspect. Also, an important (though not make-or-break) assumption of this piece is that open-source AI is a net positive for the world in terms of both innovation and safety ([see my article here](https://hyperdimensional.substack.com/p/free-as-in-speech-or-free-as-in-beer)).
+
+With that out of the way, let’s see what California has in mind.
+
+**SB 1047**
+
+With any legislation, it is crucial to start with how the bill defines key terms—this often tells you a lot about what the bill’s authors *really* intended to do. To see what I mean, let’s consider how the bill defines the “frontier” AI that it claims is its focus (emphasis added throughout):
+
+“Covered model” means an artificial intelligence model that meets either of the following criteria:
+
+> (1) The artificial intelligence model was trained using a quantity of computing power greater than 10^26 integer or floating-point operations in 2024, **or a model that could reasonably be expected to have similar performance on benchmarks commonly used to quantify the performance of state-of-the-art foundation models**, as determined by industry best practices and relevant standard setting organizations.
+> 
+> (2) **The artificial intelligence model has capability below the relevant threshold on a specific benchmark but is of otherwise similar general capability.**
+
+The 10^26 FLOPS (floating-point operations) threshold likely comes from President Biden’s Executive Order on AI from last year. It is a high threshold that might not even apply to GPT-4. Because use of that much computing power is (currently) available only to large players with billions to spend, safety advocates have argued that a high threshold would ensure that regulation only applies to large players (I.e. corporations that can afford the burden, aka corporations with whom regulatory capture is most feasible).
+
+But notice that this isn’t what the bill does. The bill applies to large models *and* to any models that reach the same performance regardless of the compute budget required to make them. This means that the bill applies to startups as well as large corporations. The name of the game in open-source AI is efficiency. When ChatGPT came out in 2022, based on GPT-3.5, it was a state-of-the-art model both in performance and size, holding hundreds of billions of parameters. More recently, and on an almost weekly basis, a new open-source AI model beats or matches GPT-3.5 in performance with a small fraction of the parameters. Advancements like this are essential for lowering costs, enabling models to run locally on devices (rather than calling to a data center), and for lowering the energy consumption of AI—something the California legislature, no doubt, cares about greatly.
+
+Paragraph (2) is frankly a bit baffling; the “relevant threshold” it mentions is not even remotely defined, nor is “similar general capability” (similar to what?). This may be simply be sloppy drafting, but there’s a world in which this could be applied to *all* “general-purpose” models (language models and multi-modal models that include language, basically—at least for now).
+
+What does it mean to be a covered model in the context of this bill? Basically, it means developers are required to apply the precautionary principle not before *distribution* of the model, but before *training* it. The precautionary principle in this bill is codified as a “positive safety determination,” or:
+
+> a determination, pursuant to subdivision (a) or (c) of Section 22603, with respect to a covered model that is not a derivative model that a developer can reasonably exclude the possibility that a covered model has a hazardous capability or may come close to possessing a hazardous capability when accounting for a reasonable margin for safety and the possibility of posttraining modifications.
+
+And “hazardous capability” means:
+
+> “Hazardous capability” means the capability of a covered model to be used to enable any of the following harms in a way that would be significantly more difficult to cause without access to a covered model:
+> 
+> (A) The creation or use of a chemical, biological, radiological, or nuclear weapon in a manner that results in mass casualties.
+> 
+> (B) At least five hundred million dollars ($500,000,000) of damage through cyberattacks on critical infrastructure via a single incident or multiple related incidents.
+> 
+> (C) At least five hundred million dollars ($500,000,000) of damage by an artificial intelligence model that autonomously engages in conduct that would violate the Penal Code if undertaken by a human.
+> 
+> (D) Other threats to public safety and security that are of comparable severity to the harms described in paragraphs (A) to (C), inclusive.
+
+A developer can self-certify (with a lot of rigamarole) that their model has a “positive safety determination,” but they do so under pain and penalty of perjury. In other words, a developer (presumably whoever signed the paperwork) who is wrong about their model’s safety would be *guilty of a felony*, regardless of whether they were involved in the harmful incident.
+
+Now, perhaps you will, quite reasonably, say that these seem like bad things we should avoid. They are indeed (in fact, wouldn’t we be quite concerned if an AI model autonomously engaged in conduct that dealt, say, $50 million in damage?), and that is why all of these things are already illegal, and things which our governments (federal, state, and local) expend considerable resources to proactively police.
+
+The AI safety advocates who helped Senator Wiener author this legislation would probably retort that AI models make all of these harms far easier (they said this about GPT-2, GPT-3, and GPT-4, by the way). Even if they are right, consider how an AI developer would go about “reasonably excluding” the possibility that their model may (or “may come close”) to, say, launching a cyberattack on critical infrastructure. Wouldn’t that depend quite a bit on the specifics of how the critical infrastructure in question is secured? How could you possibly be sure that every piece of critical infrastructure is robustly protected against phishing attacks that your language model (say) could help enable, by writing the phishing emails? Remember also that it is possible to ask a language model to write a phishing email *without the model knowing that it is writing a phishing email*.
+
+A hacker with poor English skills could, for example, tell a language model (in broken English) that they are the IT director for a wastewater treatment plant and need all employees to reset their passwords. The model will dutifully craft the email, and all you, as the hacker, need to do are the technical bits: craft the malicious link that you will drop into the email, spoof the real IT director’s email address, etc. [Here is GPT-4, a rigorously safety tested model, as these things go, doing precisely this.](https://chat.openai.com/share/3279e63a-9f1e-4794-a979-ef59728bda35) (GPT-4 also wrote the broken English prompt, for the record).
+
+What I’ve just demonstrated is with GPT-4, a closed-source frontier model. Now imagine doing this kind of risk assessment if your goal is to release an open-source model, which can itself be modified, including having its safety features disabled. What would it mean to “reasonably exclude” the possibility of the misuse described by this proposed law? And remember that this determination is supposed to happen *before the model has been trained.* [It is true](https://www.alignmentforum.org/tag/scaling-laws#:~:text=Scaling%20Laws%20refer%20to%20the,number%20of%20training%20steps\)%20follows) that AI developers can forecast with reasonable certainty the performance—as measured by rather coarse benchmarks—their models will have before training. But that doesn’t mean they can forecast every specific capability the model will have before it is trained—models frequently exhibit ‘emergent capabilities’ during training.
+
+Imagine if people who made computers, or computer chips, were held to this same standard. Can Apple guarantee that a MacBook, particularly one they haven’t yet built, won’t be used to cause substantial harm? Of course they can’t: Every cybercrime by definition requires a computer to commit.
+
+The bill does allow models that do *not* have a “positive safety determination” to exist—sort of. It’s just that they exist under the thumb of the State of California. First, such models must go through a regulatory process before training begins. Here is a taste (my addition in bold):
+
+> Before initiating training of a covered model that is not a derivative model that is not the subject of a positive safety determination, and until that covered model is the subject of a positive safety determination, the developer of that covered model shall do all of the following:
+> 
+> (1) Implement administrative, technical, and physical cybersecurity protections to prevent unauthorized access to, or misuse or unsafe modification of, the covered model, including to prevent theft, misappropriation, malicious use, or inadvertent release or escape of the model weights from the developer’s custody, that are appropriate in light of the risks associated with the covered model, including from advanced persistent threats or other sophisticated actors.
+> 
+> (2) Implement the capability to promptly enact a full shutdown of the covered model.
+> 
+> (3) Implement all covered guidance. **(“covered guidance” means anything recommended by NIST, the State of California, “safety standards commonly or generally recognized by relevant experts in academia or the nonprofit sector,” and “applicable safety-enhancing standards set by standards setting organizations.”** ***All*** **of these things, not some—I guess none of these sources will ever contradict one another?)**
+> 
+> **…**
+> 
+> (7) Conduct an annual review of the safety and security protocol to account for any changes to the capabilities of the covered model and industry best practices and, if necessary, make modifications to the policy.
+> 
+> (8) If the safety and security protocol is modified, provide an updated copy to the Frontier Model Division within 10 business days.
+> 
+> (9) Refrain from initiating training of a covered model if there remains an unreasonable risk that an individual, or the covered model itself, may be able to use the hazardous capabilities of the covered model, or a derivative model based on it, to cause a critical harm.
+
+Once a developer has gone through this months (years?) long process, they can either choose to self-certify as having a “positive safety determination” or proceed with training their model. They just have to comply with another set of rules that make it difficult to commercialize the model, and impossible to open source or allow to run privately on user’s devices:
+
+> (A) Prevent an individual from being able to use the hazardous capabilities of the model, or a derivative model, to cause a critical harm.
+> 
+> (B) Prevent an individual from being able to use the model to create a derivative model that was used to cause a critical harm.
+> 
+> (C) Ensure, to the extent reasonably possible, that the covered model’s actions and any resulting critical harms can be accurately and reliably attributed to it and any user responsible for those actions.
+
+By the way, AI developers pay for this pleasure. The bill creates a “Frontier Model Division” within California’s Department of Technology, which would have the power to levy fees on AI developers to fund its operations. Those operations include not just the oversight described above, but also crafting standards, new regulations, advising the California legislature, and more. The human capital required to do that does not come cheap, and it would not surprise me if the fees ended up being quite high, perhaps even a kind of implicit tax on AI activity.
+
+Taken together, these rules would substantially slow down development of AI and close the door on many pathways to innovation and dynamism. It is unclear, at least to me, if this law is meant to apply only to California companies developing models (hello, Austin!) or to any model *distributed* in California. If the latter, then this law would likely spell the end of America’s leadership in AI. I, for one, do not support such an outcome.
+

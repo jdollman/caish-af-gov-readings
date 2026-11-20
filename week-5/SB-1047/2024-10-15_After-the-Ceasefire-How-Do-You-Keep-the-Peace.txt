@@ -1,0 +1,48 @@
+Title: After the Ceasefire, How Do You Keep the Peace?
+Author: Dean W. Ball, Daniel Kokotajlo
+Published: 2024-10-15
+Original article: https://time.com/collections/time100-voices/7086285/ai-transparency-measures/
+
+---
+
+# After the Ceasefire, How Do You Keep the Peace?
+
+The debate over [California’s AI regulation bill SB 1047](https://time.com/collection/time100-voices/7072014/mark-ruffalo-joseph-gordon-levitt-ai-bill-safety/) has come to an end—after months of heated discourse, it was vetoed by Gov. Gavin Newsom in late September. This was America’s first major public conversation about AI policy, but it will not be our last. Now, therefore, seems an appropriate time to take stock, to reflect on what we learned, and to propose a path forward.
+
+As a policy analyst focused on AI and a former [OpenAI](https://time.com/7022026/sam-altman-safety-committee/) governance and alignment researcher, we disagreed with one another, and disagree still, about the merits of SB 1047. But when we conversed privately, we found wide areas of agreement in our assessment of the current state of AI. These points are the seeds of a productive path forward.
+
+At a fundamental level, we both share deep uncertainty about the capabilities trajectory of AI. The range of changes—both good and bad—that forecasters believe is possible within the next decade is a reminder of how little we know about the endeavor we’ve embarked on. Some believe that AI, for the next decade at least, will have only a moderate impact, maybe akin to the invention of word processing. Others believe it will be more like the arrival of smartphones or the internet. Still others believe AI will progress to artificial general intelligence (AGI)—the rise of a new species that will be smarter and more generally capable than human beings.
+
+[Deep learning](https://time.com/7012823/francois-chollet/) is a discovery, not an invention. Artificial neural networks are trained, not programmed. We are in uncharted territory, and we are pushing at the outer boundary each day. Surprises are possible, and perhaps even likely.
+
+Unfortunately, insight is not evenly distributed. Bleeding-edge AI research is pursued increasingly within the largest AI companies—OpenAI, Anthropic, DeepMind, and Meta. In a break from the past, this research is rarely published publicly. [Each one](https://time.com/6246119/demis-hassabis-deepmind-interview/) of the frontier AI companies [has communicated](https://www.youtube.com/watch?v=Gi_t3v53XRU) that [they believe](https://www.washingtonpost.com/opinions/2024/07/25/sam-altman-ai-democracy-authoritarianism-future/) AI policy should be set in a deliberative, democratic fashion. Yet such deliberation is simply impossible if the public, and even many subject-matter experts, have no idea what is being built, and thus do not even know what we are attempting to regulate, or to *not* regulate.
+
+There are many foreseeable negative implications of this information asymmetry. A misinformed public could pass clueless laws that end up harming rather than helping. Or we could take no action at all when, in fact, some policy response was merited. It is even conceivable that systems of world-changing capability could be built more or less entirely in secret; indeed, this is far closer to the status quo than we would like. And once they are built, these highly capable future systems could be known only within AI companies and, perhaps, the upper echelon of the American government. This would constitute a power imbalance that is fundamentally inconsistent with our republican form of government.
+
+Transparency, which is lower-downside and more likely to gain widespread support than other potential regulations, is the key to making AI go well. We are proposing a framework that will allow the public to gain insight into what capabilities—both beneficial and potentially harmful—we can expect future AI systems to possess.
+
+Our proposal includes four measures. Each could be implemented as public policy or as a voluntary commitment undertaken by companies, and each on its own would meaningfully advance our goal of fostering greater public insight into frontier AI development. Taken together, they would create a robust transparency framework.
+
+## Disclosure of in-development capabilities
+
+Rather than forcing companies to disclose proprietary details about how a capability was attained, we propose only sharing the fact that the capability was attained. The idea is simple: when a frontier lab first observes that a novel and major capability (as measured by the lab’s own safety plan) has been reached, the public should be informed. Public disclosure could be facilitated by the federal government’s AI Safety Institute, in which case the identity of the lab in question could be kept anonymous.
+
+## Disclosure of training goal / model spec
+
+Anthropic has published the [constitution](https://www.anthropic.com/news/claudes-constitution) it uses to train models, and the [system prompts](https://docs.anthropic.com/en/release-notes/system-prompts) it gives Claude. OpenAI has published its [model spec](https://openai.com/index/introducing-the-model-spec/), which is a detailed document outlining ChatGPT’s ideal behavior. We support regulation, voluntary commitments, or industry standards that create an expectation that documents like these be created and shared with the public.
+
+This is for [three reasons](https://x.com/DKokotajlo67142/status/1840765403544658020): first, they make it possible for users to tell when a behavior is intended or unintended. Cases of unintended behavior can then be collated and used to advance basic alignment science. Second, just as open-sourcing code tends to make it more secure, publicizing these documents makes it more likely that problems will be noticed and fixed quickly. Third, and most importantly, as AI systems become substantially more powerful and are integrated throughout our economy and government, people deserve to know what goals and principles they are being trained to follow, as a matter of basic democratic rights.
+
+## Public discussion of safety cases and potential risks
+
+This proposal would involve a requirement for frontier AI companies to publish their [safety cases](https://arxiv.org/abs/2403.10462)—their explanations of how their models will pursue the intended goals and obey the intended principles or [at least](https://arxiv.org/html/2312.06942v3) their justifications for why their models won’t cause catastrophe. Because these safety cases will be about internal models and might involve sensitive intellectual property, the public version of these documents could be released with redactions. These safety cases would not be subject to regulatory approval; instead, the purpose of sharing them is for the public and scientific community to be able to evaluate them and potentially contribute by offering feedback.
+
+## Whistleblower protections
+
+Whistleblower protections are essential to hold AI companies accountable to the law and to their own commitments. After much public debate and feedback, we believe that SB 1047’s whistleblower protections, particularly the protections for AI company employees who report on violations of the law or extreme risks, ended up reasonably close to the ideal. We suggest using the whistleblower protections from the latest version of the bill as the starting point for further discussion.
+
+We believe the AI community agrees about more than it disagrees. Almost all of us are enthusiastic about the prospect of positive technological change. Almost all of us perceive serious problems with the current status quo, whether that be in our politics, governance, or the state of scientific and technological progress. We share hopes for a future enabled by radical AI advancement. We believe, in short, that we are probably long-run allies, even if many of us disagreed bitterly about the merits of SB 1047.
+
+If AI proves as transformational as we believe it could be, it will challenge many aspects of the American status quo. It will require us to build new institutions—perhaps even a new conception of statecraft itself. This is an immense intellectual task, and our community will not be up to it if our debates are reduced to petty partisan squabbles. In that sense, AI is more than just a technological opportunity; it is an opportunity for us to refine American governance. Let’s seize it.
+
+*Dean W. Ball is a Research Fellow at the Mercatus Center and the author of the newsletter* [*Hyperdimensional.*](https://hyperdimensional.co/) *Daniel Kokotajlo is Executive Director of the AI Futures Project.*

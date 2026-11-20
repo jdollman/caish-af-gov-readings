@@ -1,0 +1,64 @@
+Title: The Political Economy of AI Regulation
+Author: Dean W. Ball
+Published: 2024-06-20
+Original article: https://www.hyperdimensional.co/p/the-political-economy-of-ai-regulation
+
+---
+
+# The Political Economy of AI Regulation
+
+I have published a few pieces this week. To avoid bombarding you with front matter, I’m going to skip news and research links for this week.
+
+- A [proposal](https://www.lawfaremedia.org/article/congress-should-preempt-state-ai-safety-legislation), written for Lawfare with University of Minnesota School of Law Professor Alan Rozenshtein, for federal legislation to preempt model-based regulation from the states. Preemption is when the federal government uses the Constitution’s [Supremacy Clause](https://constitution.congress.gov/browse/essay/artVI-C2-1/ALDE_00013395/) to reserve a specific area of lawmaking to itself, forbidding the states from getting involved.
+- An in-depth [piece](https://americancompass.org/move-fast-and-make-things/) for the think tank American Compass on the future of US manufacturing, which I believe (and hope) will involve the creative use of advanced automation technology to trigger a domestic industrial renaissance.
+- A [guest post](https://www.ai-supremacy.com/p/lets-think-step-by-step-breaking) for the Substack *[AI Supremacy](https://www.ai-supremacy.com/)* on the Senate’s AI Roadmap, the most comprehensive blueprint for federal AI policy released so far.
+
+Pick your poison!
+
+**The Political Economy of Model-Based AI Regulation**
+
+One of my central concerns with California’s SB 1047—and all regulation of AI models rather than people’s conduct with AI—is that over time, any model-based regulation will be abused by the political system. No matter how well-written or well-intentioned model-based regulation is, I worry about this kind of policy not necessarily because of the policy *per se* but because of how I expect that policy to interact with our existing political and economic structures. In other words, it’s not so much the policy itself, but the *political economy* of the policy.
+
+In fact, I suspect that a model-based regulator almost *guarantees* that many beneficial use cases of AI will be blocked or hindered in the long term.
+
+Why? Let me explain with a hypothetical. I’ll use [SB 1047](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047) as a template simply because it’s a law I know well and because it’s the model-based regulation that is closest to becoming law in the US. However, this article isn’t a critique *per se* of SB 1047—this analysis is intended to cover model-based regulators in general. I’m going to use the public school system in my hypothetical, but it’s purely for explanatory purposes. Feel free to insert your preferred entrenched, politically connected group. This analysis is compatible with any of them.
+
+I’m going to make two assumptions—I hope you’ll agree they are fair.
+
+1. Over the long term (say, a 10-20 year time horizon), and perhaps sooner, AI is likely to clash with the economic interests of entrenched groups with significant political sway (doctors, lawyers, teachers, etc.).
+2. Government regulators are subject to political pressures from, among other things, those same groups—or from political leaders who are themselves subject to pressure from those groups.
+
+If you concur with these two assumptions, and think just a bit about the incentives of model-based regulators, I think you’ll see how easy it would be for them to gradually become regulators of downstream AI use more broadly.
+
+Let’s say, following the stated intentions of SB 1047’s authors, that an AI model regulator starts out with limited, discrete goals: prevent society against the risk of alleged catastrophic and existential risk from frontier AI systems. A bill is passed, and a regulatory agency is staffed.
+
+Say this happens tomorrow, and you’re an employee at that agency. What are your incentives? At the most basic level, your incentive is to identify and police potentially risky frontier models.
+
+Maybe there are a lot of extremely risky models, and you’ll be very busy. But if people are creating novel bioweapons and launching $500m cyberattacks willy-nilly, something tells me other government agencies are going to step in. I would contend that the FBI is not going to say “oh, that wastewater treatment plant that got taken down in Los Angeles by a domestic terrorist using an AI model? We don’t need to worry about that. The Frontier Model Division, wisely created by the future California Congressman Scott Wiener, of San Francisco, is on the case!” Probably you will have some conference calls with the California Attorney General, whose job will be to sue the offending model maker. You might have less to do than you might intuit.
+
+Let’s say instead that catastrophic AI risks don’t materialize in the way the authors of SB 1047 envision. Instead, let’s say frontier AI models in the future look a little like frontier models of today. They are more powerful, and they carry risks, but there is no imminent threat of cyber- or bio-attack induced societal meltdown. Do you twiddle your thumbs and wait for a frontier AI company to submit a model that does pose that risk? How long do you wait? In the case of SB 1047’s Frontier Model Division, you don’t even have the authority to *approve* models—on paper, your job is to receive paperwork from AI companies and put it in a filing cabinet.
+
+So when you’re not opening the mail or putting safety certifications in a drawer, perhaps you’re playing solitaire. But more likely, you’ll get up to *something*. After all, you’re a new agency, and you want to prove your value—both personally, as an employee, and institutionally. But what, *exactly*, do you *do*?
+
+At this point, one way to think of your job is as a very strange kind of scientist at a fun house version of a particle accelerator. You smash different ideas together in different ways and at different speeds in your search for the elementary AI catastrophic risk particles you were hired to discover. Your job is to police something, *regardless of whether or not it is a manifest risk*. Because otherwise, you’d have nothing to do at all. Here’s where the trouble starts.
+
+Let’s say that many parents start choosing to homeschool their children using AI, or send their kids to private schools that use AI to reduce the cost of education. Already, in some states, public school enrollment is declining, and some schools are even being closed. Some employees of the public school system will inevitably be let go. In most states, California included, public teachers’ unions are among the most powerful political actors, so we can reasonably assume that even the threat of this would be considered a five-alarm fire by many within the state’s political class.
+
+As an employee of the Frontier Model Division, this is not so much your problem. Except for the fact that *you regulate the same models being used to supplant the public school system*. The [Bitter Lesson](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) suggests that over time, the largest, generalist AI models will beat models aimed at specific tasks—in other words, if educational services are to be provided by AI, it is quite likely to be the same frontier models that you, as an employee of the Frontier Model Division, were hired to regulate.
+
+So perhaps you have an incentive, guided by legislators, the teachers’ unions, and other political actors, to take a look at this issue. They have many questions: are the models being used to educate children biased in some way? Do they comply with state curricular standards? What if a child asks the model how to make a bomb, or how to find adult content online? You, as the Frontier Model Division, don’t have the statutory authority to investigate these questions *per se* (at least not yet), but conceivably, you may be involved in these discussions. After all, you’re the agency with expertise in frontier models.
+
+You’re probably under some pressure now. On the one hand, you were created to police catastrophic risks from frontier AI models. But on the other, there’s a major (perceived) crisis from AI in your state, and on the opposite side of the table from you are some of the most powerful political forces in the state. Your budget could be at risk, and you want to show the powers-that-be that you are a cooperative part of ensuring, as Senator Wiener puts it, “safe innovation.”
+
+So perhaps you take a look at the safety certifications in your filing cabinet. AI safety best practices change quickly, and there is widespread disagreement about what the best practices even are. “Hmm,” you say, perusing the paperwork submitted to you from the AI company, “can these developers *really* ‘reasonably assure’ the possibility that their model may be dangerous, ‘when accounting for a reasonable margin of safety’?” Perhaps not! Perhaps it is time for you, or for the State Attorney General, to write a strongly worded letter. Perhaps we need to subpoena the internal records of the company(ies) in question. Perhaps even a civil suit is in order.
+
+Maybe your suit proceeds. It’s in the hands of a judge at that point, but to reward you for your good work, perhaps the legislators who asked you to look into the frontier models give you some expanded authority (and more staff!) in the next legislative session. After all, AI is transforming society, and our definition of “hazardous capability” is unlikely to remain static. Nor is it likely to be universally shared.
+
+If the models in question happen to be fine-tunes of frontier foundation models—quite possible—the Frontier Model Division has *even more* options at its disposal. This is because, in the latest version of SB 1047, the Division has complete power to lower the threshold for fine-tuned models that are under its jurisdiction. If you train a *foundation* model, it needs to cost at least $100 million to be covered by the Frontier Model Division. But if you *fine-tune* a foundation model that is covered by the Frontier Model Division, no such dollar threshold applies: whether or not a fine-tune is a “covered model” under SB 1047 depends entirely upon the amount of compute used to make that fine-tune. And the Frontier Model Division can change that compute threshold at will. Could it, for example, set different compute thresholds for different industries? Could it set the threshold such that virtually any model produced anywhere in America that is relevant to fields like education or legal services falls under its jurisdiction? I see no reason why it could not.
+
+I think you get the idea: regulation does not spin out of control on day one. Instead, it spins out of control as it interacts with the broader political and economic system.
+
+If AI is as powerful as I think it will be, these political fights are inevitable, and they will be brutal. Issues like this, as opposed to debating whether GPT-7 will kill all of humanity, are what I expect to be spending most of my time writing about in five years. Maybe you love the public school system, so my example did not resonate. In that case, pick your pet issue: whatever area of society or the economy you hope AI will transform. Does that area have politically powerful forces who benefit from the status quo?
+
+Model-based regulation sounds great in theory, but in practice, a regulator of this kind can easily turn into a weapon to be wielded by the people who do not want to upend the status quo. Caveat emptor.
+

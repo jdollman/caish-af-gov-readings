@@ -1,0 +1,40 @@
+Title: A brewing battle over AI
+Author: Lara Korte, Dustin Gardiner
+Published: 2024-02-12
+Original article: https://www.politico.com/newsletters/california-playbook/2024/02/12/a-brewing-battle-over-ai-00140895
+
+---
+
+# A brewing battle over AI
+
+**THE BUZZ:** A new California proposal would enact the nation’s toughest rules for the development of artificial intelligence — and tech groups are already picking it apart.
+
+State Sen. **Scott Wiener**’s [Senate Bill 1047](https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047) would require large AI models to undergo safety testing and take cybersecurity measures before developers deploy them. In the absence of congressional action, such policies could set the tone for the entire industry.
+
+It represents a pivotal moment in the race to regulate AI, and the immediate pushback it received from a prominent tech group — that it would hinder startups, stifling competition — could be a harbinger of a tough battle in the Legislature.
+
+The San Francisco Democrat’s bill would only apply to massive AI models that operate on a scale so large they don’t even exist yet. But they will arrive sooner than people think, the lawmaker warned in an interview.
+
+“With more powerful models also comes safety risks, cyber security risks, weapons of mass destruction, and other risks that we need to get ahead of and mitigate,” Wiener said.
+
+He and other regulation-minded colleagues have warned that policymakers can’t make the same mistake with AI as they did with social media: waiting too long to rein in harmful effects.
+
+But industry interests zeroed in on a technical provision of the bill specifying that only new large-scale models would have to undergo safety certification. Those developed off existing models, known as derivatives, wouldn’t require a new round of testing.
+
+That creates a sea of red tape for newcomers, said **Todd O’Boyle,** senior director of technology policy at Chamber of Progress, a trade industry group founded by a former Google executive whose [funders include](https://progresschamber.org/partners/) Amazon, Apple, Cruise, and Waymo. The group swiftly condemned Wiener’s bill, calling it a “blow to competition.”
+
+O’Boyle said such “differential treatment” puts an unfair burden on startups. “Our concern is that this bill, however well-intentioned, is going to limit the equitable distribution of AI models of technology and innovation,” he said.
+
+The tech lobby is becoming an increasingly potent force in Sacramento and can draw on the homegrown industry’s vast resources to thwart or water down regulatory efforts like Wiener’s.
+
+But California lawmakers — and many labor groups — are keen on placing guardrails on artificial intelligence, and polling shows public concern about AI, especially as it [relates to job replacement](https://www.politico.com/news/2023/12/21/poll-california-voters-ai-jobs-00132801#:~:text=The%20POLITICO%7CMorning%20Consult%20poll,the%20other%20half%20were%20not.), is growing.
+
+Wiener described his legislation, which points to existing industry standards like those from the [National Institute of Standards and Technology](https://www.nist.gov/standards), as a reasonable set of regulations for a technology that will soon have massive global influence.
+
+O’Boyle and others have praised a provision of the bill that would establish a publicly-funded AI research hub allowing startups, researchers, and community groups to participate in the development of large-scale AI systems. Such a center could quickly get expensive for the state, but Wiener, who was just named Senate Budget chair, said he hopes to find some funding for it this year.
+
+Wiener has spent months working to head off opposition, and said he’s taken extensive steps to loop in all players as the bill took shape. The legislation is co-sponsored by Center For AI Safety Action Fund, Encode Justice, and Economic Security California.
+
+Tech companies might have deep pockets and an aversion to heavy regulation, but Wiener said he’s prepared to work with any opponents — and that he would have “an open door.”
+
+“There are times when these business associations just take a harder post, but there are other times when we can work together,” he said. “I want to get it right.”
